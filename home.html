@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    <link rel="icon" href="e-band-high-resolution-logo.png">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            height: 100vh;
+            width: 99vw;
+            margin: 0;
+            font-family: Georgia;
+            background-color: rgb(187, 185, 185);
+        }
+
+
+        .column h3 {
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .navbar {
+            background-color: #000000;
+            position: fixed;
+            width: 100%;
+            height: 10%;
+            z-index: 1;
+        }
+
+        .navbar a {
+            margin-left: 4%;
+            float: left;
+            color: white;
+            border-radius: 25px;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 17px;
+            transition-duration: 0.5s;
+            white-space: nowrap;
+        }
+
+        .navbar a:hover {
+            background-color: #41c42a;
+            color: black;
+        }
+
+        .column {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: -1.2%;
+        }
+
+        .column2 {
+            display: flex;
+            align-items: center;
+            margin-right: 10%;
+        }
+
+        .column img {
+            margin-right: 5px; 
+            margin-left: 5px;
+        }
+
+        .column1 {
+            display: flex;
+            align-items: center;
+        }
+
+        .Devices{
+            margin-right: 20%;
+        }
+        .pic{
+            margin-top: 9%;
+            margin-right: 5%;
+        }
+        .fit{
+            margin-top: 5%;
+            color: white;
+            width: 50%;
+            margin-left: 3%;
+            font-family: Georgia;
+            border: 2px solid black;
+            padding: 20px;
+            width: 700px;
+            height: 200px;
+            text-align: justify;
+        }
+        .nam{
+            margin-top: -9%;
+            margin-left: 33%;
+            font-family: Georgia;
+            color: white;
+        }
+        h3{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="row">
+            <div class="column">
+                <div class="column1">
+                    <img src="e-band-high-resolution-logo.png" height="60" alt="Logo">
+                    <h3>E-Band</h3>
+                </div>
+                <div class="column2">
+                    <a class="Home" href="./home.html">Home</a>
+                    <a class="New Device" href="./new_device.html">New Device</a>
+                    <a class="Devices" href="./devices.html"> Devices</a>
+                    <a class="logout" href="./log_in.html">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <br>
+    <div class="column">
+        <p style="font-size:30px; color: black;" class="fit">" The greatest legacy we can leave behind is not in the wealth we amass or the accolades we receive, but in the lives we touch and the hearts we save. 
+            For in the act of saving lives, we transcend our own mortality and leave an eternal imprint on the fabric of existence. "</p>
+        <img src="e-band-high-resolution-logo.png" height="500"  alt="Logo" class="pic">
+    </div>
+    <p class="nam" style="font-size:30px; color: black;">- Nelson Mandela. -</p>
+</body>
+</html>
+
