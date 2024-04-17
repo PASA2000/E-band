@@ -58,7 +58,7 @@ function validateLoginForm() {
 
     // Send the OTP via email
     Email.send({
-        SecureToken: "f4a016fb-e480-443e-ace3-4accde2a9958",
+        SecureToken: "5910b6e1-dc71-4da9-b46e-31d128a0f8a7",
         To: email,
         From: "eband2024@gmail.com",
         Subject: "OTP for password changing",
