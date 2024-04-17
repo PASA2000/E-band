@@ -44,7 +44,7 @@ function validateLoginForm() {
         return;
     }
     
-    window.location.href = 'home.html';
+    window.location.href = './home.html';
 }
 
 
